@@ -14,7 +14,7 @@ mysql 5.7.x && java 8.x
 Tải Source code về cài đặt
 
 ```
-git clone https://github.com/phamthanhnghia/QuanLyKhoSieuThi
+git clone https://github.com/VanPhuc063/quanlykhobanhang
 ```
 
 ## Documents
