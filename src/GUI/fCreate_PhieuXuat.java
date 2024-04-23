@@ -119,9 +119,15 @@ public class fCreate_PhieuXuat extends javax.swing.JFrame {
         jTextFieldIDLo = new javax.swing.JTextField();
         jLabel8 = new javax.swing.JLabel();
         jTextFieldNgaySanXuat = new javax.swing.JTextField();
+<<<<<<< HEAD
         jLabel10 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         jLabelHinhAnh = new javax.swing.JLabel();
+=======
+        jLabel12 = new javax.swing.JLabel();
+        jLabelHinhAnh = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
+>>>>>>> master
         jLabel11 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
@@ -154,7 +160,10 @@ public class fCreate_PhieuXuat extends javax.swing.JFrame {
         jLabel27.setForeground(new java.awt.Color(255, 255, 255));
         jLabel27.setText("Người phụ trách:");
 
+<<<<<<< HEAD
         jButtonLuu.setBackground(new java.awt.Color(255, 255, 255));
+=======
+>>>>>>> master
         jButtonLuu.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButtonLuu.setText("Lưu");
         jButtonLuu.addActionListener(new java.awt.event.ActionListener() {
@@ -163,7 +172,10 @@ public class fCreate_PhieuXuat extends javax.swing.JFrame {
             }
         });
 
+<<<<<<< HEAD
         jButtonThoat.setBackground(new java.awt.Color(255, 255, 255));
+=======
+>>>>>>> master
         jButtonThoat.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButtonThoat.setText("Thoát");
         jButtonThoat.addActionListener(new java.awt.event.ActionListener() {
@@ -213,7 +225,10 @@ public class fCreate_PhieuXuat extends javax.swing.JFrame {
         jTextFieldTenSanPham.setEditable(false);
         jTextFieldTenSanPham.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
 
+<<<<<<< HEAD
         jButtonChonSanPham.setBackground(new java.awt.Color(255, 255, 255));
+=======
+>>>>>>> master
         jButtonChonSanPham.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButtonChonSanPham.setText("Chọn sản phẩm");
         jButtonChonSanPham.setMaximumSize(new java.awt.Dimension(300, 300));
@@ -247,11 +262,14 @@ public class fCreate_PhieuXuat extends javax.swing.JFrame {
         jTextFieldNgaySanXuat.setEditable(false);
         jTextFieldNgaySanXuat.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
 
+<<<<<<< HEAD
         jLabel10.setFont(new java.awt.Font("Times New Roman", 3, 36)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel10.setText("Phiếu xuất kho siêu thị S.O.S");
 
+=======
+>>>>>>> master
         jLabel12.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(255, 255, 255));
         jLabel12.setText("THÔNG TIN SẢN PHẨM");
@@ -262,6 +280,13 @@ public class fCreate_PhieuXuat extends javax.swing.JFrame {
         jLabelHinhAnh.setIcon(new ImageIcon(getClass().getResource("/Image/fXuatKho.jpg")));
         jLabelHinhAnh.setText("Hình ảnh");
 
+<<<<<<< HEAD
+=======
+        jLabel13.setFont(new java.awt.Font("Times New Roman", 3, 36)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel13.setText("Quản lý kho siêu thị BigCity");
+
+>>>>>>> master
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -272,7 +297,10 @@ public class fCreate_PhieuXuat extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<< HEAD
                     .addComponent(jLabel10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+=======
+>>>>>>> master
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jButtonChonSanPham, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -284,6 +312,7 @@ public class fCreate_PhieuXuat extends javax.swing.JFrame {
                             .addComponent(jLabel7))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<< HEAD
                             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                 .addComponent(jTextFieldLoaiSanPham)
                                 .addComponent(jTextFieldTenSanPham, javax.swing.GroupLayout.DEFAULT_SIZE, 232, Short.MAX_VALUE))
@@ -302,6 +331,31 @@ public class fCreate_PhieuXuat extends javax.swing.JFrame {
                                 .addComponent(jLabel8)
                                 .addGap(18, 18, 18)
                                 .addComponent(jTextFieldNgaySanXuat, javax.swing.GroupLayout.PREFERRED_SIZE, 232, javax.swing.GroupLayout.PREFERRED_SIZE))))
+=======
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                        .addComponent(jTextFieldLoaiSanPham)
+                                        .addComponent(jTextFieldTenSanPham, javax.swing.GroupLayout.DEFAULT_SIZE, 232, Short.MAX_VALUE))
+                                    .addComponent(jTextFieldIDLo, javax.swing.GroupLayout.PREFERRED_SIZE, 232, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 135, Short.MAX_VALUE)
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jLabel1)
+                                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                                .addComponent(jLabel2)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(jTextFieldSoLuongHienCo, javax.swing.GroupLayout.PREFERRED_SIZE, 232, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                        .addComponent(jTextFieldHanSuDung, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 232, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                        .addComponent(jLabel8)
+                                        .addGap(18, 18, 18)
+                                        .addComponent(jTextFieldNgaySanXuat, javax.swing.GroupLayout.PREFERRED_SIZE, 232, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addComponent(jLabel13)
+                                .addGap(0, 0, Short.MAX_VALUE))))
+>>>>>>> master
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addComponent(jLabel12)
                         .addGap(0, 0, Short.MAX_VALUE)))
@@ -311,7 +365,11 @@ public class fCreate_PhieuXuat extends javax.swing.JFrame {
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
+<<<<<<< HEAD
                 .addComponent(jLabel10)
+=======
+                .addComponent(jLabel13)
+>>>>>>> master
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
                 .addComponent(jLabel12)
                 .addGap(18, 18, 18)
@@ -536,9 +594,15 @@ public class fCreate_PhieuXuat extends javax.swing.JFrame {
     private javax.swing.JButton jButtonLuu;
     private javax.swing.JButton jButtonThoat;
     private javax.swing.JLabel jLabel1;
+<<<<<<< HEAD
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
+=======
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+>>>>>>> master
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel4;

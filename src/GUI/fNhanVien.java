@@ -104,8 +104,11 @@ public class fNhanVien extends javax.swing.JFrame {
         jScrollPane2 = new javax.swing.JScrollPane();
         jTableNhanVien = new javax.swing.JTable();
         jLabelKetQua = new javax.swing.JLabel();
+<<<<<<< HEAD
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
+=======
+>>>>>>> master
         jPanel3 = new javax.swing.JPanel();
         jButtonNhoMax = new javax.swing.JButton();
         jButtonNho = new javax.swing.JButton();
@@ -114,6 +117,10 @@ public class fNhanVien extends javax.swing.JFrame {
         jButtonLonMax = new javax.swing.JButton();
         jLabelSoTrang = new javax.swing.JLabel();
         jComboBoxNhanVien = new javax.swing.JComboBox<>();
+<<<<<<< HEAD
+=======
+        jLabel4 = new javax.swing.JLabel();
+>>>>>>> master
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Danh Sách Nhân Viên");
@@ -185,7 +192,11 @@ public class fNhanVien extends javax.swing.JFrame {
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<< HEAD
             .addComponent(jLabel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 980, Short.MAX_VALUE)
+=======
+            .addComponent(jLabel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 988, Short.MAX_VALUE)
+>>>>>>> master
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -215,6 +226,7 @@ public class fNhanVien extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
+<<<<<<< HEAD
         jLabel2.setFont(new java.awt.Font("Times New Roman", 3, 36)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Phần mềm quản lý kho");
@@ -223,6 +235,8 @@ public class fNhanVien extends javax.swing.JFrame {
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("siêu thị S.O.S");
 
+=======
+>>>>>>> master
         jPanel3.setBackground(new java.awt.Color(0, 153, 153));
 
         jButtonNhoMax.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
@@ -303,11 +317,19 @@ public class fNhanVien extends javax.swing.JFrame {
             }
         });
 
+<<<<<<< HEAD
+=======
+        jLabel4.setFont(new java.awt.Font("Times New Roman", 3, 36)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setText("Quản lý kho siêu thị BigCity");
+
+>>>>>>> master
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
+<<<<<<< HEAD
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -315,17 +337,31 @@ public class fNhanVien extends javax.swing.JFrame {
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(jLabel3)
                             .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE))
+=======
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(33, 33, 33)
+                        .addComponent(jLabel4)
+>>>>>>> master
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jComboBoxNhanVien, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(329, 329, 329)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+<<<<<<< HEAD
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+=======
+                .addContainerGap(342, Short.MAX_VALUE))
+>>>>>>> master
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+<<<<<<< HEAD
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel2)
@@ -333,6 +369,16 @@ public class fNhanVien extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+=======
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jComboBoxNhanVien, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(27, 27, 27)
+                        .addComponent(jLabel4)))
+                .addGap(34, 34, 34)
+>>>>>>> master
                 .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -354,6 +400,7 @@ public class fNhanVien extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
+<<<<<<< HEAD
     private void jTextFieldTimKiemKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldTimKiemKeyReleased
         if ("".equals(jTextFieldTimKiem.getText())) {
             build();
@@ -403,6 +450,8 @@ public class fNhanVien extends javax.swing.JFrame {
         jLabelSoTrang.setText(SoTrang + "/" + SoTrang);
     }//GEN-LAST:event_jButtonLonMaxActionPerformed
 
+=======
+>>>>>>> master
     private void jComboBoxNhanVienActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxNhanVienActionPerformed
         String valueIn = String.valueOf(jComboBoxNhanVien.getSelectedItem());
         if ("Thoát".equals(valueIn)) {
@@ -417,6 +466,7 @@ public class fNhanVien extends javax.swing.JFrame {
         jComboBoxNhanVien.setSelectedIndex(0);
     }//GEN-LAST:event_jComboBoxNhanVienActionPerformed
 
+<<<<<<< HEAD
     private void jTextFieldTimKiemKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldTimKiemKeyPressed
         if (evt.getKeyCode() == KeyEvent.VK_ENTER) {
             DanhSachXuatKho = DuLieuMau;
@@ -424,6 +474,43 @@ public class fNhanVien extends javax.swing.JFrame {
         }
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextFieldTimKiemKeyPressed
+=======
+    private void jButtonLonMaxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonLonMaxActionPerformed
+        Trang = SoTrang;
+        ArrayList<NhanVien> table = DAO.daoNhanVien.getInstance().get20NhanVien(DanhSachXuatKho, Trang);
+        listDanhSachNhanVien(table);
+        jLabelTrang.setText("" + SoTrang);
+        jLabelSoTrang.setText(SoTrang + "/" + SoTrang);
+    }//GEN-LAST:event_jButtonLonMaxActionPerformed
+
+    private void jButtonLonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonLonActionPerformed
+        if (Trang < SoTrang) {
+            Trang++;
+            ArrayList<NhanVien> table = DAO.daoNhanVien.getInstance().get20NhanVien(DanhSachXuatKho, Trang);
+            listDanhSachNhanVien(table);
+            jLabelTrang.setText("" + Trang);
+            jLabelSoTrang.setText(Trang + "/" + SoTrang);
+        }
+    }//GEN-LAST:event_jButtonLonActionPerformed
+
+    private void jButtonNhoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonNhoActionPerformed
+        if (Trang > 1) {
+            Trang--;
+            ArrayList<NhanVien> table = DAO.daoNhanVien.getInstance().get20NhanVien(DanhSachXuatKho, Trang);
+            listDanhSachNhanVien(table);
+            jLabelTrang.setText("" + Trang);
+            jLabelSoTrang.setText(Trang + "/" + SoTrang);
+        }
+    }//GEN-LAST:event_jButtonNhoActionPerformed
+
+    private void jButtonNhoMaxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonNhoMaxActionPerformed
+        Trang = 1;
+        ArrayList<NhanVien> table = DAO.daoNhanVien.getInstance().get20NhanVien(DanhSachXuatKho, Trang);
+        listDanhSachNhanVien(table);
+        jLabelTrang.setText("1");
+        jLabelSoTrang.setText("1/" + SoTrang);
+    }//GEN-LAST:event_jButtonNhoMaxActionPerformed
+>>>>>>> master
 
     private void jTableNhanVienMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTableNhanVienMouseClicked
         if (evt.getClickCount() == 2 && !evt.isConsumed()) {
@@ -436,6 +523,30 @@ public class fNhanVien extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jTableNhanVienMouseClicked
 
+<<<<<<< HEAD
+=======
+    private void jButtonTimKiemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonTimKiemActionPerformed
+        DanhSachXuatKho = DuLieuMau;
+        FindList();
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButtonTimKiemActionPerformed
+
+    private void jTextFieldTimKiemKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldTimKiemKeyReleased
+        if ("".equals(jTextFieldTimKiem.getText())) {
+            build();
+        }
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextFieldTimKiemKeyReleased
+
+    private void jTextFieldTimKiemKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldTimKiemKeyPressed
+        if (evt.getKeyCode() == KeyEvent.VK_ENTER) {
+            DanhSachXuatKho = DuLieuMau;
+            FindList();
+        }
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextFieldTimKiemKeyPressed
+
+>>>>>>> master
     /**
      * @param args the command line arguments
      */
@@ -510,8 +621,12 @@ public class fNhanVien extends javax.swing.JFrame {
     private javax.swing.JButton jButtonTimKiem;
     private javax.swing.JComboBox<String> jComboBoxNhanVien;
     private javax.swing.JLabel jLabel1;
+<<<<<<< HEAD
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+=======
+    private javax.swing.JLabel jLabel4;
+>>>>>>> master
     private javax.swing.JLabel jLabelKetQua;
     private javax.swing.JLabel jLabelSoTrang;
     private javax.swing.JLabel jLabelTrang;

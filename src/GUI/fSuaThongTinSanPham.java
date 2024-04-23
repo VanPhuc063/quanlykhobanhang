@@ -79,7 +79,10 @@ public class fSuaThongTinSanPham extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
+<<<<<<< HEAD
         jLabel8 = new javax.swing.JLabel();
+=======
+>>>>>>> master
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
@@ -135,10 +138,13 @@ public class fSuaThongTinSanPham extends javax.swing.JFrame {
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Phần mềm quản lý kho");
 
+<<<<<<< HEAD
         jLabel8.setFont(new java.awt.Font("Times New Roman", 3, 12)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("siêu thị S.O.S");
 
+=======
+>>>>>>> master
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -149,9 +155,13 @@ public class fSuaThongTinSanPham extends javax.swing.JFrame {
                         .addContainerGap()
                         .addComponent(jLabel7))
                     .addGroup(jPanel1Layout.createSequentialGroup()
+<<<<<<< HEAD
                         .addGap(68, 68, 68)
                         .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(94, 94, 94)
+=======
+                        .addGap(275, 275, 275)
+>>>>>>> master
                         .addComponent(jLabel1)))
                 .addContainerGap(295, Short.MAX_VALUE))
         );
@@ -161,9 +171,13 @@ public class fSuaThongTinSanPham extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+<<<<<<< HEAD
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel8)
                     .addComponent(jLabel1))
+=======
+                .addComponent(jLabel1)
+>>>>>>> master
                 .addGap(83, 83, 83))
         );
 
@@ -320,7 +334,10 @@ public class fSuaThongTinSanPham extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel7;
+<<<<<<< HEAD
     private javax.swing.JLabel jLabel8;
+=======
+>>>>>>> master
     private javax.swing.JLabel jLabelHinhAnh;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JTextField jTextField1;

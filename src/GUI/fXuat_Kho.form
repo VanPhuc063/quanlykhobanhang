@@ -68,6 +68,7 @@
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
               <Group type="102" alignment="1" attributes="0">
+<<<<<<< HEAD
                   <EmptySpace min="0" pref="329" max="32767" attributes="0"/>
                   <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="329" max="-2" attributes="0"/>
@@ -77,6 +78,12 @@
                   <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
+=======
+                  <EmptySpace min="0" pref="342" max="32767" attributes="0"/>
+                  <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="329" max="-2" attributes="0"/>
+              </Group>
+>>>>>>> master
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
@@ -86,9 +93,13 @@
                       <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jComboBoxNhanVien" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
                   </Group>
+<<<<<<< HEAD
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
+=======
+                  <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+>>>>>>> master
                   <Component id="jPanel2" max="32767" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
@@ -109,6 +120,7 @@
             <Property name="text" type="java.lang.String" value="Ph&#x1ea7;n m&#x1ec1;m qu&#x1ea3;n l&#xfd; kho"/>
           </Properties>
         </Component>
+<<<<<<< HEAD
         <Component class="javax.swing.JLabel" name="jLabel3">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
@@ -120,6 +132,8 @@
             <Property name="text" type="java.lang.String" value="si&#xea;u th&#x1ecb; S.O.S"/>
           </Properties>
         </Component>
+=======
+>>>>>>> master
         <Container class="javax.swing.JPanel" name="jPanel2">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -137,7 +151,11 @@
                   <Group type="102" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< HEAD
                           <Component id="jScrollPane1" alignment="0" pref="960" max="32767" attributes="0"/>
+=======
+                          <Component id="jScrollPane1" alignment="0" pref="976" max="32767" attributes="0"/>
+>>>>>>> master
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="jButtonTaoMoi" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>

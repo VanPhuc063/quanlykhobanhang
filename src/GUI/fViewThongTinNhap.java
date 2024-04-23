@@ -130,9 +130,14 @@ public class fViewThongTinNhap extends javax.swing.JFrame {
         jSeparator3 = new javax.swing.JSeparator();
         jLabel22 = new javax.swing.JLabel();
         jTextFieldNhanVien = new javax.swing.JTextField();
+<<<<<<< HEAD
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel23 = new javax.swing.JLabel();
+=======
+        jLabel23 = new javax.swing.JLabel();
+        jLabel24 = new javax.swing.JLabel();
+>>>>>>> master
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Thông tin phiếu nhập");
@@ -613,7 +618,11 @@ public class fViewThongTinNhap extends javax.swing.JFrame {
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                     .addComponent(jLabel4)
                                     .addComponent(jTextFieldThoiGian, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+<<<<<<< HEAD
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 14, Short.MAX_VALUE)
+=======
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 28, Short.MAX_VALUE)
+>>>>>>> master
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                     .addComponent(jLabel22)
                                     .addComponent(jTextFieldNhanVien, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -627,6 +636,7 @@ public class fViewThongTinNhap extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
+<<<<<<< HEAD
         jLabel1.setFont(new java.awt.Font("Times New Roman", 3, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Phần mềm quản lý kho");
@@ -635,10 +645,19 @@ public class fViewThongTinNhap extends javax.swing.JFrame {
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("siêu thị S.O.S");
 
+=======
+>>>>>>> master
         jLabel23.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         jLabel23.setForeground(new java.awt.Color(255, 255, 255));
         jLabel23.setText("Thông Tin Phiếu Nhập");
 
+<<<<<<< HEAD
+=======
+        jLabel24.setFont(new java.awt.Font("Times New Roman", 3, 36)); // NOI18N
+        jLabel24.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel24.setText("Quản lý kho siêu thị BigCity");
+
+>>>>>>> master
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -649,6 +668,7 @@ public class fViewThongTinNhap extends javax.swing.JFrame {
                         .addContainerGap()
                         .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
+<<<<<<< HEAD
                         .addGap(29, 29, 29)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(jLabel1)
@@ -657,16 +677,32 @@ public class fViewThongTinNhap extends javax.swing.JFrame {
                         .addComponent(jLabel23)
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
+=======
+                        .addGap(416, 416, 416)
+                        .addComponent(jLabel23)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(15, 15, 15)
+                .addComponent(jLabel24)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+>>>>>>> master
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(21, 21, 21)
+<<<<<<< HEAD
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
                     .addComponent(jLabel23))
+=======
+                .addComponent(jLabel24)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel23)
+>>>>>>> master
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
@@ -687,6 +723,7 @@ public class fViewThongTinNhap extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
+<<<<<<< HEAD
     private void jTextFieldThoiGianActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldThoiGianActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextFieldThoiGianActionPerformed
@@ -738,14 +775,73 @@ public class fViewThongTinNhap extends javax.swing.JFrame {
     private void jTextFieldSoDienThoaiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldSoDienThoaiActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextFieldSoDienThoaiActionPerformed
+=======
+    private void jTextFieldNhanVienActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldNhanVienActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextFieldNhanVienActionPerformed
+>>>>>>> master
 
     private void jTextFieldEmailActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldEmailActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextFieldEmailActionPerformed
 
+<<<<<<< HEAD
     private void jTextFieldNhanVienActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldNhanVienActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextFieldNhanVienActionPerformed
+=======
+    private void jTextFieldSoDienThoaiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldSoDienThoaiActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextFieldSoDienThoaiActionPerformed
+
+    private void jTextFieldDiaChiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldDiaChiActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextFieldDiaChiActionPerformed
+
+    private void jTextFieldTenNhaCungCapActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldTenNhaCungCapActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextFieldTenNhaCungCapActionPerformed
+
+    private void jTextFieldGiaLoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldGiaLoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextFieldGiaLoActionPerformed
+
+    private void jTextFieldSoLuongLoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldSoLuongLoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextFieldSoLuongLoActionPerformed
+
+    private void jTextFieldNgaySanXuatActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldNgaySanXuatActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextFieldNgaySanXuatActionPerformed
+
+    private void jTextFieldHanSuDungActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldHanSuDungActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextFieldHanSuDungActionPerformed
+
+    private void jTextFieldGiaSanPhamActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldGiaSanPhamActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextFieldGiaSanPhamActionPerformed
+
+    private void jTextFieldSoLuongSanPhamActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldSoLuongSanPhamActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextFieldSoLuongSanPhamActionPerformed
+
+    private void jTextFieldDonViTinhActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldDonViTinhActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextFieldDonViTinhActionPerformed
+
+    private void jTextFieldLoaiSanPhamActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldLoaiSanPhamActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextFieldLoaiSanPhamActionPerformed
+
+    private void jTextFieldTenSanPhamActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldTenSanPhamActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextFieldTenSanPhamActionPerformed
+
+    private void jTextFieldThoiGianActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldThoiGianActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextFieldThoiGianActionPerformed
+>>>>>>> master
 
     /**
      * @param args the command line arguments
@@ -783,7 +879,10 @@ public class fViewThongTinNhap extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+<<<<<<< HEAD
     private javax.swing.JLabel jLabel1;
+=======
+>>>>>>> master
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
@@ -794,11 +893,18 @@ public class fViewThongTinNhap extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
+<<<<<<< HEAD
     private javax.swing.JLabel jLabel2;
+=======
+>>>>>>> master
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel23;
+<<<<<<< HEAD
+=======
+    private javax.swing.JLabel jLabel24;
+>>>>>>> master
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;

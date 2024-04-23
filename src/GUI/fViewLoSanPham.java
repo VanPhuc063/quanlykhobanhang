@@ -98,8 +98,11 @@ public class fViewLoSanPham extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
+<<<<<<< HEAD
         jLabel2 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
+=======
+>>>>>>> master
         jPanel13 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         jLabelNgayNhap = new javax.swing.JLabel();
@@ -129,6 +132,11 @@ public class fViewLoSanPham extends javax.swing.JFrame {
         jScrollPane2 = new javax.swing.JScrollPane();
         jTableKiemKe = new javax.swing.JTable();
         jButton4 = new javax.swing.JButton();
+<<<<<<< HEAD
+=======
+        jLabel4 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+>>>>>>> master
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Thông tin lô sản phẩm");
@@ -136,6 +144,7 @@ public class fViewLoSanPham extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(0, 102, 102));
 
+<<<<<<< HEAD
         jLabel2.setFont(new java.awt.Font("Times New Roman", 3, 36)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("siêu thị S.O.S");
@@ -144,11 +153,17 @@ public class fViewLoSanPham extends javax.swing.JFrame {
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Phần mềm quản lý kho");
 
+=======
+>>>>>>> master
         jPanel13.setBackground(new java.awt.Color(255, 255, 255));
         jPanel13.setAlignmentX(0.2F);
 
         jPanel2.setBackground(new java.awt.Color(0, 153, 153));
+<<<<<<< HEAD
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Thông tin lô", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 14), new java.awt.Color(255, 255, 255))); // NOI18N
+=======
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, null, null, null, new java.awt.Font("Tahoma", 0, 14), new java.awt.Color(255, 255, 255))); // NOI18N
+>>>>>>> master
 
         jLabelNgayNhap.setBackground(new java.awt.Color(255, 255, 255));
         jLabelNgayNhap.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
@@ -250,7 +265,11 @@ public class fViewLoSanPham extends javax.swing.JFrame {
         );
 
         jPanel3.setBackground(new java.awt.Color(0, 153, 153));
+<<<<<<< HEAD
         jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Thông tin sản phẩm", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 14), new java.awt.Color(255, 255, 255))); // NOI18N
+=======
+        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, null, null, null, new java.awt.Font("Tahoma", 0, 14), new java.awt.Color(255, 255, 255))); // NOI18N
+>>>>>>> master
         jPanel3.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabelHinhAnh.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
@@ -369,7 +388,11 @@ public class fViewLoSanPham extends javax.swing.JFrame {
         );
 
         jPanel4.setBackground(new java.awt.Color(0, 153, 153));
+<<<<<<< HEAD
         jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Thông tin xuất", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 14), new java.awt.Color(255, 255, 255))); // NOI18N
+=======
+        jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, null, null, null, new java.awt.Font("Tahoma", 0, 14), new java.awt.Color(255, 255, 255))); // NOI18N
+>>>>>>> master
 
         jTableXuat.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -415,7 +438,11 @@ public class fViewLoSanPham extends javax.swing.JFrame {
         );
 
         jPanel5.setBackground(new java.awt.Color(0, 153, 153));
+<<<<<<< HEAD
         jPanel5.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Thông tin kiểm kê", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 14), new java.awt.Color(255, 255, 255))); // NOI18N
+=======
+        jPanel5.setBorder(javax.swing.BorderFactory.createTitledBorder(null, null, null, null, new java.awt.Font("Tahoma", 0, 14), new java.awt.Color(255, 255, 255))); // NOI18N
+>>>>>>> master
 
         jTableKiemKe.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -491,6 +518,17 @@ public class fViewLoSanPham extends javax.swing.JFrame {
 
         jButton4.setFont(new java.awt.Font("Tahoma", 0, 3)); // NOI18N
 
+<<<<<<< HEAD
+=======
+        jLabel4.setFont(new java.awt.Font("Times New Roman", 3, 36)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setText("Quản lý kho siêu thị BigCity");
+
+        jLabel8.setFont(new java.awt.Font("Times New Roman", 3, 36)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel8.setText("Quản lý kho siêu thị BigCity");
+
+>>>>>>> master
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -499,6 +537,7 @@ public class fViewLoSanPham extends javax.swing.JFrame {
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(jButton4))
             .addGroup(jPanel1Layout.createSequentialGroup()
+<<<<<<< HEAD
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -507,10 +546,26 @@ public class fViewLoSanPham extends javax.swing.JFrame {
                     .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel13, javax.swing.GroupLayout.PREFERRED_SIZE, 1227, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+=======
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jPanel13, javax.swing.GroupLayout.PREFERRED_SIZE, 1227, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(42, 42, 42)
+                        .addComponent(jLabel8)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel1Layout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(jLabel4)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+>>>>>>> master
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
+<<<<<<< HEAD
                 .addContainerGap()
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -519,6 +574,19 @@ public class fViewLoSanPham extends javax.swing.JFrame {
                 .addComponent(jPanel13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGap(2, 2, 2)
                 .addComponent(jButton4))
+=======
+                .addGap(29, 29, 29)
+                .addComponent(jLabel8)
+                .addGap(32, 32, 32)
+                .addComponent(jPanel13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(2, 2, 2)
+                .addComponent(jButton4))
+            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel1Layout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(jLabel4)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+>>>>>>> master
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -585,6 +653,7 @@ public class fViewLoSanPham extends javax.swing.JFrame {
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButtonNgayNhapPhieu;
     private javax.swing.JButton jButtonNhaCungCap;
+<<<<<<< HEAD
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -593,6 +662,16 @@ public class fViewLoSanPham extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
+=======
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+>>>>>>> master
     private javax.swing.JLabel jLabel9;
     private javax.swing.JLabel jLabelGiaSanPham;
     private javax.swing.JLabel jLabelHSD;

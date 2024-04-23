@@ -82,8 +82,11 @@ public class fTonKho extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
+<<<<<<< HEAD
         jLabel3 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
+=======
+>>>>>>> master
         jPanel2 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTableLo = new javax.swing.JTable();
@@ -102,6 +105,10 @@ public class fTonKho extends javax.swing.JFrame {
         jButtonLon = new javax.swing.JButton();
         jButtonLonMax = new javax.swing.JButton();
         jLabelSoTrang = new javax.swing.JLabel();
+<<<<<<< HEAD
+=======
+        jLabel5 = new javax.swing.JLabel();
+>>>>>>> master
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Kiểm Tra Tồn Kho");
@@ -109,6 +116,7 @@ public class fTonKho extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(0, 102, 102));
 
+<<<<<<< HEAD
         jLabel3.setFont(new java.awt.Font("Times New Roman", 3, 36)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("siêu thị S.O.S");
@@ -117,6 +125,8 @@ public class fTonKho extends javax.swing.JFrame {
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Phần mềm quản lý kho");
 
+=======
+>>>>>>> master
         jPanel2.setBackground(new java.awt.Color(0, 153, 153));
 
         jTableLo.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
@@ -224,7 +234,11 @@ public class fTonKho extends javax.swing.JFrame {
                         .addComponent(jXDatePickerThoiGian, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jButtonLamMoi)
+<<<<<<< HEAD
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+=======
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 307, Short.MAX_VALUE)
+>>>>>>> master
                         .addComponent(jTextFieldTimKiem, javax.swing.GroupLayout.PREFERRED_SIZE, 244, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jButtonTimKiem))
@@ -335,11 +349,19 @@ public class fTonKho extends javax.swing.JFrame {
                 .addGap(10, 10, 10))
         );
 
+<<<<<<< HEAD
+=======
+        jLabel5.setFont(new java.awt.Font("Times New Roman", 3, 36)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setText("Quản lý kho siêu thị BigCity");
+
+>>>>>>> master
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
+<<<<<<< HEAD
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -351,6 +373,17 @@ public class fTonKho extends javax.swing.JFrame {
                         .addComponent(jLabel3)
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+=======
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(38, 38, 38)
+                        .addComponent(jLabel5)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jComboBoxNhanVien, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE)))
+>>>>>>> master
                 .addContainerGap())
             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel1Layout.createSequentialGroup()
@@ -361,6 +394,7 @@ public class fTonKho extends javax.swing.JFrame {
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
+<<<<<<< HEAD
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel2)
@@ -368,6 +402,16 @@ public class fTonKho extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+=======
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jComboBoxNhanVien, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(31, 31, 31)
+                        .addComponent(jLabel5)))
+                .addGap(30, 30, 30)
+>>>>>>> master
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(66, Short.MAX_VALUE))
             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -392,9 +436,94 @@ public class fTonKho extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
+<<<<<<< HEAD
     private void jXDatePickerThoiGianActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jXDatePickerThoiGianActionPerformed
         String date = DAO.DateTimeNow.getIntance().FormatDate(jXDatePickerThoiGian.getDate().toString());
         
+=======
+    private void jButtonLonMaxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonLonMaxActionPerformed
+        Trang = SoTrang;
+        ArrayList<ThongTinTon> table = DAO.daoTonKho.getInstance().get20TonKho(DanhSachTonKho, Trang);
+        listDanhSachKho(table);
+        jLabelTrang.setText("" + SoTrang);
+        jLabelSoTrang.setText(SoTrang + "/" + SoTrang);
+    }//GEN-LAST:event_jButtonLonMaxActionPerformed
+
+    private void jButtonLonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonLonActionPerformed
+        if (Trang < SoTrang) {
+            Trang++;
+            ArrayList<ThongTinTon> table = DAO.daoTonKho.getInstance().get20TonKho(DanhSachTonKho, Trang);
+            listDanhSachKho(table);
+            jLabelTrang.setText("" + Trang);
+            jLabelSoTrang.setText(Trang + "/" + SoTrang);
+        }
+    }//GEN-LAST:event_jButtonLonActionPerformed
+
+    private void jButtonNhoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonNhoActionPerformed
+        if (Trang > 1) {
+            Trang--;
+            ArrayList<ThongTinTon> table = DAO.daoTonKho.getInstance().get20TonKho(DanhSachTonKho, Trang);
+            listDanhSachKho(table);
+            jLabelTrang.setText("" + Trang);
+            jLabelSoTrang.setText(Trang + "/" + SoTrang);
+        }
+    }//GEN-LAST:event_jButtonNhoActionPerformed
+
+    private void jButtonNhoMaxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonNhoMaxActionPerformed
+        Trang = 1;
+        ArrayList<ThongTinTon> table = DAO.daoTonKho.getInstance().get20TonKho(DanhSachTonKho, Trang);
+        listDanhSachKho(table);
+        jLabelTrang.setText("1");
+        jLabelSoTrang.setText("1/" + SoTrang);
+    }//GEN-LAST:event_jButtonNhoMaxActionPerformed
+
+    private void jComboBoxNhanVienActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxNhanVienActionPerformed
+        String valueIn = String.valueOf(jComboBoxNhanVien.getSelectedItem());
+        if ("Thoát".equals(valueIn)) {
+            JFrame dn = new fDangNhap();
+            dn.setVisible(true);
+            dispose();
+        }
+        if ("Thông tin".equals(valueIn)) {
+            JFrame nv = new fViewNhanVien(id_nv, id_nv);
+            nv.setVisible(true);
+        }
+        jComboBoxNhanVien.setSelectedIndex(0);
+    }//GEN-LAST:event_jComboBoxNhanVienActionPerformed
+
+    private void jButtonLamMoiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonLamMoiActionPerformed
+        invalidate();
+        validate();
+        repaint();
+        DuLieuMau=DAO.daoTonKho.getInstance().getTonKhoTheoNgay(DAO.DateTimeNow.getIntance().DateNow);
+        build();
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButtonLamMoiActionPerformed
+
+    private void jButtonTimKiemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonTimKiemActionPerformed
+
+        FindList();
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButtonTimKiemActionPerformed
+
+    private void jTextFieldTimKiemKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldTimKiemKeyReleased
+        /*if ("".equals(jTextFieldTimKiem.getText())) {
+            build();
+        }*/
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextFieldTimKiemKeyReleased
+
+    private void jTextFieldTimKiemKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldTimKiemKeyPressed
+        if (evt.getKeyCode() == KeyEvent.VK_ENTER) {
+            FindList();
+        }
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextFieldTimKiemKeyPressed
+
+    private void jXDatePickerThoiGianActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jXDatePickerThoiGianActionPerformed
+        String date = DAO.DateTimeNow.getIntance().FormatDate(jXDatePickerThoiGian.getDate().toString());
+
+>>>>>>> master
         DuLieuMau = DAO.daoTonKho.getInstance().getTonKhoTheoNgay(date);
         DanhSachTonKho = DuLieuMau;
         if (DanhSachTonKho.isEmpty() == false) {
@@ -416,13 +545,20 @@ public class fTonKho extends javax.swing.JFrame {
             listDanhSachKho(table);
         } else {
             JOptionPane.showMessageDialog(null,
+<<<<<<< HEAD
                     "Ngày bạn chọn không tìm thấy",
                     "Thông Bao",
                     JOptionPane.WARNING_MESSAGE);
+=======
+                "Ngày bạn chọn không tìm thấy",
+                "Thông Bao",
+                JOptionPane.WARNING_MESSAGE);
+>>>>>>> master
         }
         // TODO add your handling code here:
     }//GEN-LAST:event_jXDatePickerThoiGianActionPerformed
 
+<<<<<<< HEAD
     private void jTextFieldTimKiemKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldTimKiemKeyPressed
         if (evt.getKeyCode() == KeyEvent.VK_ENTER) {
             FindList();
@@ -502,6 +638,8 @@ public class fTonKho extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextFieldTimKiemKeyReleased
 
+=======
+>>>>>>> master
     public void NhanVienDangNhap() {
         if (id_nv != 0) {
             TaiKhoan tk = DAO.daoTaiKhoan.getInstance().getTaiKhoan(id_nv);
@@ -593,9 +731,14 @@ public class fTonKho extends javax.swing.JFrame {
     private javax.swing.JButton jButtonTimKiem;
     private javax.swing.JComboBox<String> jComboBoxNhanVien;
     private javax.swing.JLabel jLabel1;
+<<<<<<< HEAD
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+=======
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+>>>>>>> master
     private javax.swing.JLabel jLabelKetQua;
     private javax.swing.JLabel jLabelSoTrang;
     private javax.swing.JLabel jLabelTrang;

@@ -54,8 +54,11 @@ public class fDangNhap extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
+<<<<<<< HEAD
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
+=======
+>>>>>>> master
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
         jSeparator2 = new javax.swing.JSeparator();
@@ -80,7 +83,11 @@ public class fDangNhap extends javax.swing.JFrame {
             }
         });
 
+<<<<<<< HEAD
         jDesktopPane2.setBackground(new java.awt.Color(0, 102, 102));
+=======
+        jDesktopPane2.setBackground(new java.awt.Color(0, 102, 0));
+>>>>>>> master
         jDesktopPane2.setForeground(new java.awt.Color(0, 102, 102));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/fDangNhap.png"))); // NOI18N
@@ -117,7 +124,10 @@ public class fDangNhap extends javax.swing.JFrame {
             }
         });
 
+<<<<<<< HEAD
         jButtonDangNhap.setBackground(new java.awt.Color(255, 255, 255));
+=======
+>>>>>>> master
         jButtonDangNhap.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButtonDangNhap.setText("Đăng nhập");
         jButtonDangNhap.addActionListener(new java.awt.event.ActionListener() {
@@ -126,7 +136,10 @@ public class fDangNhap extends javax.swing.JFrame {
             }
         });
 
+<<<<<<< HEAD
         jButtonThoat.setBackground(new java.awt.Color(255, 255, 255));
+=======
+>>>>>>> master
         jButtonThoat.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButtonThoat.setText("Thoát");
         jButtonThoat.addActionListener(new java.awt.event.ActionListener() {
@@ -206,6 +219,7 @@ public class fDangNhap extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
+<<<<<<< HEAD
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/Logo.png"))); // NOI18N
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
@@ -221,6 +235,19 @@ public class fDangNhap extends javax.swing.JFrame {
 
         jLabel9.setFont(new java.awt.Font("Tahoma", 0, 10)); // NOI18N
         jLabel9.setText("ĐH Công nghệ Thông tin- ĐHQG TP.HCM");
+=======
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/logo-dai-hoc-gia-dinh-inkythuatso-01_1.png"))); // NOI18N
+
+        jLabel5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel5.setText("Phần mềm Quản lý Kho siêu thị");
+        jLabel5.setOpaque(true);
+
+        jLabel8.setFont(new java.awt.Font("Tahoma", 0, 10)); // NOI18N
+        jLabel8.setText("Nhóm 7 - K15DCPM01");
+
+        jLabel9.setFont(new java.awt.Font("Tahoma", 0, 10)); // NOI18N
+        jLabel9.setText("ĐH Gia Định - Khoa Công Nghệ Thông Tin");
+>>>>>>> master
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -228,6 +255,7 @@ public class fDangNhap extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<< HEAD
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jLabel7))
@@ -250,6 +278,21 @@ public class fDangNhap extends javax.swing.JFrame {
                                         .addGap(23, 23, 23)))))
                         .addGap(0, 62, Short.MAX_VALUE)))
                 .addContainerGap())
+=======
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(62, 62, 62)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jSeparator1)
+                                .addComponent(jSeparator2)
+                                .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.TRAILING))
+                            .addComponent(jLabel9)))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(113, 113, 113)
+                        .addComponent(jLabel8)))
+                .addContainerGap(87, Short.MAX_VALUE))
+>>>>>>> master
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -266,11 +309,15 @@ public class fDangNhap extends javax.swing.JFrame {
                 .addComponent(jLabel8)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel9)
+<<<<<<< HEAD
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel6)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel7)
                 .addContainerGap())
+=======
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+>>>>>>> master
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -285,7 +332,14 @@ public class fDangNhap extends javax.swing.JFrame {
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jDesktopPane2)
+<<<<<<< HEAD
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+=======
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(27, 27, 27))
+>>>>>>> master
         );
 
         pack();
@@ -413,8 +467,11 @@ public class fDangNhap extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+<<<<<<< HEAD
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
+=======
+>>>>>>> master
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;

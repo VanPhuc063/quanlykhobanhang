@@ -115,7 +115,10 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
+<<<<<<< HEAD
             <Property name="text" type="java.lang.String" value="si&#xea;u th&#x1ecb; S.O.S"/>
+=======
+>>>>>>> master
           </Properties>
         </Component>
         <Component class="javax.swing.JComboBox" name="jComboBoxNhanVien">
@@ -148,7 +151,11 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jLabel3" alignment="1" max="32767" attributes="0"/>
+<<<<<<< HEAD
                           <Component id="jScrollPane1" alignment="0" pref="960" max="32767" attributes="0"/>
+=======
+                          <Component id="jScrollPane1" alignment="0" pref="963" max="32767" attributes="0"/>
+>>>>>>> master
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="jButtonTaoMoi" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>

@@ -191,8 +191,12 @@ public class fBaoCao extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
+<<<<<<< HEAD
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
+=======
+        jLabel5 = new javax.swing.JLabel();
+>>>>>>> master
         jPanel2 = new javax.swing.JPanel();
         jPanel3 = new javax.swing.JPanel();
         jSeparator1 = new javax.swing.JSeparator();
@@ -227,6 +231,7 @@ public class fBaoCao extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(0, 102, 102));
 
+<<<<<<< HEAD
         jLabel2.setFont(new java.awt.Font("Times New Roman", 3, 36)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Phần mềm quản lý kho");
@@ -234,12 +239,18 @@ public class fBaoCao extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Times New Roman", 3, 36)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("siêu thị S.O.S");
+=======
+        jLabel5.setFont(new java.awt.Font("Times New Roman", 3, 36)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setText("Quản lý kho siêu thị BigCity");
+>>>>>>> master
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
+<<<<<<< HEAD
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(24, 24, 24)
@@ -247,16 +258,26 @@ public class fBaoCao extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(191, 191, 191)
                         .addComponent(jLabel3)))
+=======
+                .addGap(30, 30, 30)
+                .addComponent(jLabel5)
+>>>>>>> master
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
+<<<<<<< HEAD
                 .addContainerGap()
                 .addComponent(jLabel2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel3)
                 .addContainerGap(23, Short.MAX_VALUE))
+=======
+                .addGap(15, 15, 15)
+                .addComponent(jLabel5)
+                .addContainerGap(63, Short.MAX_VALUE))
+>>>>>>> master
         );
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
@@ -267,7 +288,10 @@ public class fBaoCao extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel4.setText("Đến ngày :");
 
+<<<<<<< HEAD
         jButtonXuat.setBackground(new java.awt.Color(255, 255, 255));
+=======
+>>>>>>> master
         jButtonXuat.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButtonXuat.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/icons8-microsoft-excel-40.png"))); // NOI18N
         jButtonXuat.setText("Xuất");
@@ -286,7 +310,11 @@ public class fBaoCao extends javax.swing.JFrame {
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jLabel4)
                     .addComponent(jLabel1)
+<<<<<<< HEAD
                     .addComponent(jSeparator1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 150, Short.MAX_VALUE)
+=======
+                    .addComponent(jSeparator1, javax.swing.GroupLayout.Alignment.TRAILING)
+>>>>>>> master
                     .addComponent(jXDatePickerNgayDau, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jXDatePickerNgayCuoi, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jButtonXuat, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -342,13 +370,20 @@ public class fBaoCao extends javax.swing.JFrame {
                 .addComponent(jLabelSoLanNhapKho)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabelSoLanXuatKho)
+<<<<<<< HEAD
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+=======
+                .addContainerGap(14, Short.MAX_VALUE))
+>>>>>>> master
         );
 
         jLabelSoLuongTrongKhoHienTai.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabelSoLuongTrongKhoHienTai.setText("Hiện tại có : ");
 
+<<<<<<< HEAD
         jButton1.setBackground(new java.awt.Color(255, 255, 255));
+=======
+>>>>>>> master
         jButton1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/icons8-print-40.png"))); // NOI18N
         jButton1.setText("In Báo Cáo");
@@ -618,9 +653,14 @@ public class fBaoCao extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButtonXuat;
     private javax.swing.JLabel jLabel1;
+<<<<<<< HEAD
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+=======
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+>>>>>>> master
     private javax.swing.JLabel jLabelHomNay;
     private javax.swing.JLabel jLabelSoLanNhapKho;
     private javax.swing.JLabel jLabelSoLanXuatKho;

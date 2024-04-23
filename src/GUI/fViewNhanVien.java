@@ -65,8 +65,11 @@ public class fViewNhanVien extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
+<<<<<<< HEAD
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
+=======
+>>>>>>> master
         jPanelNhanVien = new javax.swing.JPanel();
         jLabelHinhAnh = new javax.swing.JLabel();
         jButtonThoat = new javax.swing.JButton();
@@ -81,6 +84,10 @@ public class fViewNhanVien extends javax.swing.JFrame {
         jLabelNgaySinh = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
         jSeparator2 = new javax.swing.JSeparator();
+<<<<<<< HEAD
+=======
+        jLabel6 = new javax.swing.JLabel();
+>>>>>>> master
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setResizable(false);
@@ -89,6 +96,7 @@ public class fViewNhanVien extends javax.swing.JFrame {
         jPanel1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jPanel1.setPreferredSize(new java.awt.Dimension(1000, 600));
 
+<<<<<<< HEAD
         jLabel1.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Phần mềm quản lý kho");
@@ -97,6 +105,8 @@ public class fViewNhanVien extends javax.swing.JFrame {
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("siêu thị S.O.S");
 
+=======
+>>>>>>> master
         jPanelNhanVien.setBackground(new java.awt.Color(255, 255, 255));
         jPanelNhanVien.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jPanelNhanVien.setPreferredSize(new java.awt.Dimension(765, 470));
@@ -191,7 +201,11 @@ public class fViewNhanVien extends javax.swing.JFrame {
                         .addComponent(jLabel5)
                         .addGap(18, 18, 18)
                         .addComponent(jLabel7)))
+<<<<<<< HEAD
                 .addContainerGap(16, Short.MAX_VALUE))
+=======
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+>>>>>>> master
         );
 
         javax.swing.GroupLayout jPanelNhanVienLayout = new javax.swing.GroupLayout(jPanelNhanVien);
@@ -203,7 +217,11 @@ public class fViewNhanVien extends javax.swing.JFrame {
                 .addGroup(jPanelNhanVienLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jSeparator2, javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanelNhanVienLayout.createSequentialGroup()
+<<<<<<< HEAD
                         .addGap(0, 0, Short.MAX_VALUE)
+=======
+                        .addGap(0, 10, Short.MAX_VALUE)
+>>>>>>> master
                         .addGroup(jPanelNhanVienLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 537, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jButtonThoat)
@@ -216,7 +234,11 @@ public class fViewNhanVien extends javax.swing.JFrame {
         jPanelNhanVienLayout.setVerticalGroup(
             jPanelNhanVienLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelNhanVienLayout.createSequentialGroup()
+<<<<<<< HEAD
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+=======
+                .addContainerGap(22, Short.MAX_VALUE)
+>>>>>>> master
                 .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanelNhanVienLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
@@ -229,10 +251,18 @@ public class fViewNhanVien extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
+<<<<<<< HEAD
+=======
+        jLabel6.setFont(new java.awt.Font("Times New Roman", 3, 36)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel6.setText("Quản lý kho siêu thị BigCity");
+
+>>>>>>> master
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<< HEAD
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -242,16 +272,30 @@ public class fViewNhanVien extends javax.swing.JFrame {
                     .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(219, Short.MAX_VALUE))
             .addComponent(jPanelNhanVien, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 579, Short.MAX_VALUE)
+=======
+            .addComponent(jPanelNhanVien, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 579, Short.MAX_VALUE)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(26, 26, 26)
+                .addComponent(jLabel6)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+>>>>>>> master
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
+<<<<<<< HEAD
                 .addContainerGap()
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel2)
                 .addGap(18, 18, 18)
                 .addComponent(jPanelNhanVien, javax.swing.GroupLayout.DEFAULT_SIZE, 250, Short.MAX_VALUE))
+=======
+                .addGap(27, 27, 27)
+                .addComponent(jLabel6)
+                .addGap(18, 18, 18)
+                .addComponent(jPanelNhanVien, javax.swing.GroupLayout.DEFAULT_SIZE, 251, Short.MAX_VALUE))
+>>>>>>> master
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -313,11 +357,18 @@ public class fViewNhanVien extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButtonThoat;
+<<<<<<< HEAD
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+=======
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+>>>>>>> master
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabelCmnd;
     private javax.swing.JLabel jLabelHinhAnh;
